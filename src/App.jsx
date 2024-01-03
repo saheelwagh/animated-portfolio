@@ -13,3 +13,6 @@ const App = () => {
 };
 
 export default App;
+
+// TODO get full code from original repo finished branch
+//  TODO define pages of tql
