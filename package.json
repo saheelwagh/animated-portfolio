@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "file:10/16/0",
+    "@emailjs/browser": "^3.11.0",
+    "framer-motion": "^10.16.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.68.0"
