@@ -1,19 +1,26 @@
 .navbar {
-   min-height:20vh;
+   height: 100px;
    margin-top: 50px;
-}
+   color: wheat;
+
 .wrapper {
     max-width: 1366px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100%;
+    background-color: purple;
 }
 
 .social {
     display:  flex;
-    gap: 10px;
+    gap: 20px;
     img {
         width: 18px;
     };
     }
+span {
+    font-weight: bold;
+}    
+}

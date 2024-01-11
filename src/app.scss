@@ -13,5 +13,33 @@ a {
     color: lightgray;
 }
 section {
-    // height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: center;
+    // The scroll-snap-align property 
+    // specifies the box's snap position 
+    // as an alignment of its snap area 
+    // (as the alignment subject) within its snap container's snapport
+    //  (as the alignment container).
+    //   The two values specify the snapping alignment 
+    //   in the block axis and inline axis, respectively. 
+    //   If only one value is specified, 
+    //   the second value defaults to the same value.
+    overflow: hidden;
+
 }
+@mixin mobile {
+    @media (max-width: 738px) {
+      @content;
+    }
+  }
+  @mixin tablet {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+  @mixin desktop {
+    @media (max-width: 1366px) {
+      @content;
+    }
+  }

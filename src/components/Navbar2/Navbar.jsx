@@ -13,14 +13,14 @@ export default function Navbar(){
                 transition={{duration: 0.5}}
                 >
                     Lama dev
-                    </motion.span>
+                </motion.span>
                 <span>Lama Dev</span>
                 <div className="social">
                     <a href=""> <img src="./facebook.png" alt="" /></a>  
-                    <a href=""> <img src="./facebook.png" alt="" /></a>  
-                    <a href=""> <img src="./facebook.png" alt="" /></a>  
-                    <a href=""> <img src="./facebook.png" alt="" /></a>  
-                    <a href=""> <img src="./facebook.png" alt="" /></a>  
+                    <a href=""> <img src="./instagram.png" alt="" /></a>  
+                    <a href=""> <img src="./dribble.png" alt="" /></a>  
+                    <a href=""> <img src="./youtube.png" alt="" /></a>  
+                    
                 </div>
             </div>
         </div>
