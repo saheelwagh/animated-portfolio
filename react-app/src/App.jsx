@@ -3,7 +3,7 @@ import "./app.scss";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar2/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
@@ -37,6 +37,3 @@ const App = () => {
 };
 
 export default App;
-
-// TODO get full code from original repo finished branch
-//  TODO define pages of tql
